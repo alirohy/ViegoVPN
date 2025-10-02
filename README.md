@@ -147,5 +147,5 @@ If you find this project helpful, please give it a ⭐ on GitHub!
 
 ## Contact
 
-- GitHub: [@YOUR_USERNAME](https://github.com/YOUR_USERNAME)
-- Issues: [GitHub Issues](https://github.com/YOUR_USERNAME/zedsecure/issues)
+- GitHub: [https://github.com/CluvexStudio/ZedSecure)
+- Issues: [GitHub Issues](https://github.com/CluvexStudio/ZedSecure/issues)
