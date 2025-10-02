@@ -80,7 +80,7 @@ class _SubscriptionsScreenState extends State<SubscriptionsScreen> {
                     padding: const EdgeInsets.only(bottom: 12),
                     child: Row(
                       children: [
-                        Icon(FluentIcons.star, size: 16, color: Colors.orange),
+                        Icon(FluentIcons.favorite_star, size: 16, color: Colors.orange),
                         const SizedBox(width: 8),
                         const Text(
                           'Suggested Subscription',
@@ -177,7 +177,7 @@ class _SubscriptionsScreenState extends State<SubscriptionsScreen> {
             ],
           ),
           child: const Center(
-            child: Icon(FluentIcons.star, color: Colors.white, size: 24),
+            child: Icon(FluentIcons.favorite_star_fill, color: Colors.white, size: 24),
           ),
         ),
         title: Text(
