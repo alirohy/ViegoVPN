@@ -47,10 +47,6 @@ android {
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = true
-            ndk {
-                abiFilters.addAll(listOf("armeabi-v7a", "arm64-v8a"))
-                debugSymbolLevel = "SYMBOL_TABLE"
-            }
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
