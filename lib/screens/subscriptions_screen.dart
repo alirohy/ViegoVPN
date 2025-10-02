@@ -29,8 +29,8 @@ class _SubscriptionsScreenState extends State<SubscriptionsScreen> {
       id: 'suggested_cloudflare_plus',
       name: 'Suggested - CloudflarePlus',
       url: 'https://raw.githubusercontent.com/darkvpnapp/CloudflarePlus/refs/heads/main/proxy',
-      lastUpdate: null,
-      configs: [],
+      lastUpdate: DateTime.now(),
+      configCount: 0,
     );
   }
 
@@ -80,7 +80,7 @@ class _SubscriptionsScreenState extends State<SubscriptionsScreen> {
                     padding: const EdgeInsets.only(bottom: 12),
                     child: Row(
                       children: [
-                        Icon(FluentIcons.sparkle, size: 16, color: Colors.orange),
+                        Icon(FluentIcons.star, size: 16, color: Colors.orange),
                         const SizedBox(width: 8),
                         const Text(
                           'Suggested Subscription',
@@ -177,7 +177,7 @@ class _SubscriptionsScreenState extends State<SubscriptionsScreen> {
             ],
           ),
           child: const Center(
-            child: Icon(FluentIcons.sparkle, color: Colors.white, size: 24),
+            child: Icon(FluentIcons.star, color: Colors.white, size: 24),
           ),
         ),
         title: Text(
