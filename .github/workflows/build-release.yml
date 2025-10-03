@@ -43,9 +43,8 @@ jobs:
       - name: Rename APK files
         run: |
           mkdir -p output
-          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk output/ZedSecure-v${{ github.ref_name }}-arm64-v8a.apk || true
-          cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk output/ZedSecure-v${{ github.ref_name }}-armeabi-v7a.apk || true
-          cp build/app/outputs/flutter-apk/app-release.apk output/ZedSecure-v${{ github.ref_name }}-universal.apk || true
+          cp build/app/outputs/flutter-apk/app-arm64-v8a-release.apk output/ZedSecure-v${{ github.ref_name }}-arm64-v8a.apk
+          cp build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk output/ZedSecure-v${{ github.ref_name }}-armeabi-v7a.apk
           ls -lh output/
           
       - name: Get version from tag
@@ -74,9 +73,8 @@ jobs:
             
             | Architecture | Recommended For | File Size |
             |--------------|----------------|-----------|
-            | **ARM64** | Most modern Android devices (2019+) | ~15-20 MB |
-            | **ARMv7** | Older devices (2015-2019) | ~15-20 MB |
-            | **Universal** | All devices (if unsure, use this) | ~30-40 MB |
+            | **ARM64** | Most modern Android devices (2019+) | ~70-90 MB |
+            | **ARMv7** | Older devices (2015-2019) | ~70-90 MB |
             
             ### ✨ Features
             

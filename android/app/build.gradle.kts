@@ -20,10 +20,10 @@ android {
 
     defaultConfig {
         applicationId = "com.zedsecure.vpn"
-        minSdk = 24
-        targetSdk = 36
+        minSdk = flutter.minSdkVersion
+        targetSdk = flutter.targetSdkVersion
         versionCode = 1
-        versionName = "1.0.0"
+        versionName = "1.0.1"
 
         manifestPlaceholders.put("io.flutter.embedding.android.EnableImpeller", "false")
     }
@@ -31,15 +31,6 @@ android {
     packagingOptions {
         jniLibs {
             useLegacyPackaging = true
-        }
-    }
-
-    splits {
-        abi {
-            isEnable = true
-            reset()
-            include("armeabi-v7a", "arm64-v8a")
-            isUniversalApk = false
         }
     }
 
