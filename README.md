@@ -166,3 +166,5 @@ If you find this project helpful, please give it a ⭐ on GitHub!
 
 - GitHub: [https://github.com/CluvexStudio/ZedSecure)
 - Issues: [GitHub Issues](https://github.com/CluvexStudio/ZedSecure/issues)
+- 
+Telegram Channel: https://t.me/CluvexStudio
