@@ -34,7 +34,7 @@ _Add screenshots here_
 
 ### Download APK
 
-Download the latest APK from [Releases](https://github.com/YOUR_USERNAME/zedsecure/releases)
+Download the latest APK from [Releases](https://github.com/CluvexStudio/ZedSecure/releases)
 
 ### Build from Source
 
