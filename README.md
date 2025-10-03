@@ -129,7 +129,24 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GNU General Public License v3.0 (GPL-3.0)** with additional terms.
+
+### Key License Terms:
+- ✅ **Attribution Required**: Must credit CluvexStudio and link to this repository
+- ✅ **Open Source**: Any derivative work must be open source under GPL-3.0
+- ✅ **Share Alike**: Modifications must be shared under the same license
+- ⚠️ **Commercial Use**: Requires explicit written permission from CluvexStudio
+- ❌ **Prohibited**: Removing credits, claiming as your own, privacy violations
+
+**TL;DR**: You can use, modify, and distribute this code freely, but you MUST:
+1. Keep it open source
+2. Credit the original author (CluvexStudio)
+3. Link to: https://github.com/CluvexStudio/ZedSecure
+4. Share your modifications under GPL-3.0
+
+For commercial use or custom licensing, contact via GitHub Issues.
+
+See the [LICENSE](LICENSE) file for full legal terms.
 
 ## Acknowledgments
 
